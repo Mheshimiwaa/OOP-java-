@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "storagechecker",
+      "request": "launch",
+      "mainClass": "storagechecker",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "Isuzu",
+      "request": "launch",
+      "mainClass": "Isuzu",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "InvertedPyramid",
+      "request": "launch",
+      "mainClass": "InvertedPyramid",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "invertedpyramid",
+      "request": "launch",
+      "mainClass": "invertedpyramid",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "InvertedStarTree",
+      "request": "launch",
+      "mainClass": "InvertedStarTree",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "maxandmin",
+      "request": "launch",
+      "mainClass": "maxandmin",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "SeparateEvenOdd",
+      "request": "launch",
+      "mainClass": "SeparateEvenOdd",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
       "name": "AstersiskPyramid",
       "request": "launch",
       "mainClass": "AstersiskPyramid",
