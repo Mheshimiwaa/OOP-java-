@@ -1,0 +1,108 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "AstersiskPyramid",
+      "request": "launch",
+      "mainClass": "AstersiskPyramid",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "Arithmetic",
+      "request": "launch",
+      "mainClass": "Arithmetic",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "SecondLargest",
+      "request": "launch",
+      "mainClass": "SecondLargest",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "MaxMin",
+      "request": "launch",
+      "mainClass": "MaxMin",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "maxmin",
+      "request": "launch",
+      "mainClass": "maxmin",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "Commonelements",
+      "request": "launch",
+      "mainClass": "Commonelements",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "divisiblenumbers",
+      "request": "launch",
+      "mainClass": "divisiblenumbers",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "UserInputExample",
+      "request": "launch",
+      "mainClass": "UserInputExample",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "Table",
+      "request": "launch",
+      "mainClass": "Table",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "TenByTenTable",
+      "request": "launch",
+      "mainClass": "TenByTenTable",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "table",
+      "request": "launch",
+      "mainClass": "table",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "java",
+      "request": "launch",
+      "mainClass": "java",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/user.DESKTOP-OMQ89VA/OneDrive/Desktop/Michael/matrices",
+      "program": "c:/Users/user.DESKTOP-OMQ89VA/OneDrive/Desktop/Michael/matrices/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
