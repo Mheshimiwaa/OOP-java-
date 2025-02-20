@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "dowhile",
+      "request": "launch",
+      "mainClass": "dowhile",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
       "name": "storagechecker",
       "request": "launch",
       "mainClass": "storagechecker",
