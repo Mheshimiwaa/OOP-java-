@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "welsh",
+      "request": "launch",
+      "mainClass": "welsh",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "safaricom",
+      "request": "launch",
+      "mainClass": "safaricom",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
       "name": "PhoneBilling",
       "request": "launch",
       "mainClass": "PhoneBilling",

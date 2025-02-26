@@ -1,34 +1,49 @@
 import javax.swing.*;
+import java.time.LocalTime;
 
-class PhoneBilling {
+class phoneBilling {
     public static void main(String[] args) {
-        int starttime = Integer.parseInt(JOptionPane.showInputDialog("Enter time in 24 hrs the call started:"));
-        int endtime = Integer.parseInt(JOptionPane.showInputDialog("Enter time in 24 hrs the call ended:"));
+        
+        LocalTime starttime = LocalTime.now();
+        JOptionPane.showMessageDialog(null, "Call started at: " + starttime);
+
+        
+        JOptionPane.showMessageDialog(null, "Press OK when the call ends");
+
+        
+        LocalTime endtime = LocalTime.now();
+        JOptionPane.showMessageDialog(null, "Call started at: " + endtime);
+
+
+        
         boolean isDifferentNetwork = JOptionPane.showConfirmDialog(null, "Is the call between different networks?") == JOptionPane.YES_OPTION;
 
-        // Ensure the duration is positive even if the call spans midnight
-        int duration = (endtime >= starttime) ? (endtime - starttime) : (24 - starttime + endtime);
         
+        int startMinutes = starttime.getHour() * 60 + starttime.getMinute();
+        int endMinutes = endtime.getHour() *60+ endtime.getMinute();
+        int duration = endMinutes - startMinutes;
+        if (duration < 0) duration += 24 * 60; 
+
         double chargepermin;
-        if ((starttime >= 1800 && starttime <= 2400) || (starttime >= 0 && starttime < 600)) {
+        int startHour = starttime.getHour();
+        if ((startHour >= 18 && startHour <= 24) || (startHour >= 0 && startHour < 6)) {
             chargepermin = 4.0;
         } else {
             chargepermin = 3.0;
         }
-        
+
         double totalcharge = duration * chargepermin;
+
         
-        // Apply extra charge for duration longer than 2 minutes
         if (duration > 2) {
-            double extraVAT = 0.16 * totalcharge;
-            totalcharge += extraVAT;
+            totalcharge += 0.16 * totalcharge; 
         }
+
         
-        // Apply extra charge for different network
         if (isDifferentNetwork) {
-            totalcharge += 5.0;
+            totalcharge += 5.0;  
         }
-        
+
         JOptionPane.showMessageDialog(null, "Duration of call: " + duration + " minutes\nTotal charge: " + totalcharge + " units");
     }
 }
