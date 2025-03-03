@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Calculator",
+      "request": "launch",
+      "mainClass": "Calculator",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "supa",
+      "request": "launch",
+      "mainClass": "supa",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "Supermarket",
+      "request": "launch",
+      "mainClass": "Supermarket",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "Divisible",
+      "request": "launch",
+      "mainClass": "Divisible",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "divisible",
+      "request": "launch",
+      "mainClass": "divisible",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "Quadratic",
+      "request": "launch",
+      "mainClass": "Quadratic",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "quadratic",
+      "request": "launch",
+      "mainClass": "quadratic",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "areaRectangle",
+      "request": "launch",
+      "mainClass": "areaRectangle",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
       "name": "welsh",
       "request": "launch",
       "mainClass": "welsh",
