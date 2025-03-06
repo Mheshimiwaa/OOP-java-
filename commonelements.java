@@ -21,14 +21,14 @@ import javax.swing.JOptionPane;
         }
 
         
-        StringBuilder commonElementsStr = new StringBuilder("Common elements: ");
+        StringBuilder commonElements= new StringBuilder("Common elements: ");
         boolean hasCommonElements = false;
 
         for (int num1 : array1) {
             for (int num2 : array2) {
                 if (num1 == num2) {
-                    if (!commonElementsStr.toString().contains(String.valueOf(num1))) {
-                        commonElementsStr.append(num1).append(" ");
+                    if (!commonElements.toString().contains(String.valueOf(num1))) {
+                        commonElements.append(num1).append(" ");
                         hasCommonElements = true;
                     }
                 }
@@ -36,10 +36,10 @@ import javax.swing.JOptionPane;
         }
 
         if (!hasCommonElements) {
-            commonElementsStr.append("None");
+            commonElements.append("None");
         }
 
         
-        JOptionPane.showMessageDialog(null, commonElementsStr.toString());
+        JOptionPane.showMessageDialog(null, commonElements.toString());
     }
 }
