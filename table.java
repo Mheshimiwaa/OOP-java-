@@ -15,7 +15,7 @@ class Table {
             for (int j = 0; j < size; j++) {
                 System.out.printf("%3d", table[i][j]);
             }
-            System.out.println();
+            System.out.println(); // Move to the next line after printing each row
         }
     }
 }

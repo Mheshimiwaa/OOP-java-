@@ -3,14 +3,13 @@ import javax.swing.JOptionPane;
  class BubbleSort {
     public static void main(String[] args) {
         
-        String sizeInput = JOptionPane.showInputDialog("Enter the size of the array:");
-        int size = Integer.parseInt(sizeInput);
+        int size = Integer.parseInt(JOptionPane.showInputDialog("Enter the size of the array:"));
+        
 
         
         int[] numbers = new int[size];
         for (int i = 0; i < size; i++) {
-            String numberInput = JOptionPane.showInputDialog("Enter number " + (i + 1) + ":");
-            numbers[i] = Integer.parseInt(numberInput);
+            numbers[i] = Integer.parseInt(JOptionPane.showInputDialog("Enter number " + (i + 1) + ":"));
         }
 
         

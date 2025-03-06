@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AddArrays",
+      "request": "launch",
+      "mainClass": "AddArrays",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "P",
+      "request": "launch",
+      "mainClass": "P",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
+      "name": "AsteriskPyramid",
+      "request": "launch",
+      "mainClass": "AsteriskPyramid",
+      "projectName": "JAVA_e462e703"
+    },
+    {
+      "type": "java",
       "name": "Calculator",
       "request": "launch",
       "mainClass": "Calculator",

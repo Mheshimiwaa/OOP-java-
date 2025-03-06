@@ -19,12 +19,11 @@ public class AddArrays {
         for (int i = 0; i < arraySize; i++) {
             resultArray[i] = array1[i] + array2[i];
         }
-
-        StringBuilder resultArrayStr = new StringBuilder("Resulting array: ");
-        for (int num : resultArray) {
-            resultArrayStr.append(num).append(" ");
+        StringBuilder resultArrayStr=new StringBuilder("Resulting array:");
+        for (int num:resultArray){
+            resultArrayStr.append(num).append("");
         }
-
-        JOptionPane.showMessageDialog(null, resultArrayStr.toString());
+        JOptionPane.showMessageDialog(null,resultArrayStr.toString());
+        }
     }
-}
+     

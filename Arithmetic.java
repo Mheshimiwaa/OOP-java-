@@ -15,7 +15,7 @@ int sum=0;//mean
         
         sum += array[i];
         }
-         double mean=(double)sum/arraySize;
+         double mean=(double) sum/arraySize;
 
         Arrays.sort(array);//median
         double median;
